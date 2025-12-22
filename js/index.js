@@ -34,11 +34,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
   function openMenu() {
     menuOverlay.classList.add('active');
+    document.body.classList.add('menu-open');
     setExpanded(true);
   }
 
   function closeMenu() {
     menuOverlay.classList.remove('active');
+    document.body.classList.remove('menu-open');
     setExpanded(false);
   }
 
