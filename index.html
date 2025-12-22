@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="./js/index.js" defer></script>
+  <title>Projeto - Monks</title>
+</head>
+<body>
+
+  <header class="hero" id="heroSection">
+    <nav class="hero-nav">
+      <img src="static/logo.png" alt="logo monks">
+
+    <ul class="hero-categories" aria-label="Categorias">
+        <li><a href="#productsSection">Categoria 1</a></li>
+        <li><a href="#gallerySection">Categoria 2</a></li>
+        <li><a href="#AppSection">Categoria 3</a></li>
+        <li><a href="#formSection">Categoria 4</a></li>
+    </ul>
+
+      <button type="button" class="menu-btn" aria-controls="menuOverlay" aria-expanded="false">
+        <img src="static/Vector.png" alt="ícone do menu">
+      </button>
+    </nav>
+
+    <div class="hero-inner">
+    <div class="hero-content">
+      <h1>
+        Lorem ipsum dolor sit amet consectetur
+      </h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur.
+        Semper orci adipiscing faucibus sit scelerisque
+        quis commodo aenean viverra
+      </p>
+
+      <div class="hero-scroll">
+      <img src="static/Scroll.png" alt="scroll" class="scroll">
+      </div>
+
+    </div>
+
+    <div class="hero-images">
+  <picture>
+    <source media="(min-width: 900px)" srcset="static/logo-monks-desktop.png">
+    <img src="static/logos-monks.png" alt="monks base" class="base">
+  </picture>
+
+  <picture>
+    <source media="(min-width: 900px)" srcset="static/logo-monks-desktop2.png">
+    <img src="static/logos-monks (1).png" alt="monks overlay" class="overlay">
+  </picture>
+</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="products-section" id="productsSection">
+        <div class="products-title">
+            <h2>
+                Lorem ipsum dolor sit amet consectetur
+            </h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo
+            </p>
+        </div>
+
+        <div class="products-container">
+            <article class="product-card">
+                <figure>
+                    <img src="static/product1.png" alt="produto-1" class="product-img">
+                    <figcaption class="product-info">
+                        <h3>
+                            Lorem ipsum dolor
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </figcaption>
+                </figure>
+            </article>
+
+                <article class="product-card">
+                <figure>
+                    <img src="static/product2.png" alt="produto-2" class="product-img">
+                    <figcaption class="product-info">
+                        <h3>
+                            Lorem ipsum dolor
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </figcaption>
+                </figure>
+            </article>
+
+                <article class="product-card">
+                <figure>
+                    <img src="static/product3.png" alt="produto-3" class="product-img">
+                    <figcaption class="product-info">
+                        <h3>
+                            Lorem ipsum dolor
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </figcaption>
+                </figure>
+            </article>
+
+                       <article class="product-card">
+                <figure>
+                    <img src="static/product4.png" alt="produto-4" class="product-img">
+                    <figcaption class="product-info">
+                        <h3>
+                            Lorem ipsum dolor
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </figcaption>
+                </figure>
+            </article>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallerySection">
+    <div class="gallery-grid">
+
+        <div class="main-picture">
+        <div class="gallery-title">
+            <h2>Lorem ipsum dolor sit amet consectetur</h2>
+            <p>
+            Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo
+            </p>
+        </div>
+
+        <img src="static/gallery1.png" alt="Imagem principal" class="gallery-img">
+        </div>
+
+        <div class="secondary-pics">
+        <img src="static/gallery2.png" alt="Imagem secundária 1" class="gallery-img" >
+        <img src="static/gallery3.png" alt="Imagem secundária 2" class="gallery-img" >
+        </div>
+
+    </div>
+    </section>
+
+
+    <section class="app-section" id="AppSection">
+        <div class="infobox-app">
+            <div class="titlebox-app">
+                <h2>
+                    Lorem ipsum dolor sit amet consectetur
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo aenean viverra
+                </p>
+            </div>
+
+            <div class="app-buttons">
+                <a href="https://www.apple.com/br/store" target="_blank" class="app-btn" rel="noopener noreferrer">
+                    <img src="static/appstore.png" alt="Disponível na Apple Store">
+                </a>
+                <a href="https://play.google.com/store/" target="_blank" class="app-btn" rel="noopener noreferrer">
+                    <img src="static/playstore.png" alt="Disponível na Play Store">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="tag-section">
+        <div class="tag-inner">
+            <h2>
+                Lorem ipsum dolor sit amet consectetur
+            </h2>
+
+            <nav class="tags">
+                <ul>
+                    <li>
+                        <a href="/categoria/perfumaria/">Perfumaria</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/corpo-banho/">Corpo e Banho</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/hidratante/">Hidratante</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/desodorante/">Desodorante</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/cabelos/">Cabelos</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/maquiagem/">Maquiagem</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/rosto/">Rosto</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/casa/">Casa</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/infantil/">Infantil</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/shampoo/">Shampoo</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/sabonete/">Sabonete</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/body-splash/">Body Splash</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/oleo-corporal/">Óleo Corporal</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/corretivo/">Corretivo</a>
+                    </li>
+                    <li>
+                         <a href="/categoria/protecao-solar/">Proteção Solar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="card-section">
+        <article class="card">
+            <h2>
+                Lorem ipsum dolor sit amet
+            </h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo aenean viverra.
+            </p>
+            <button type="button">
+                Lorem ipsum
+            </button>
+        </article>
+
+        <article class="card">
+            <h2>
+                Lorem ipsum dolor sit amet
+            </h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo aenean viverra.
+            </p>
+            <button type="button">
+                Lorem ipsum
+            </button>
+        </article>
+
+        <article class="card">
+            <h2>
+                Lorem ipsum dolor sit amet
+            </h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo aenean viverra.
+            </p>
+
+            <button type="button">
+                Lorem ipsum
+            </button>
+        </article>
+    </section>
+
+    <section class="form-section" id="formSection">
+        <figure class="form-img">
+            <img src="static/form-img.png" alt="ilustração de um operador de rádio/comunicação">
+        </figure>
+
+        <form class="form" action="#" method="POST">
+            <div class="form-text-box">
+            <h2>
+                Lorem ipsum dolor sit amet consectetur
+            </h2>
+
+            <p>
+               Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque
+            </p>
+
+            <span class="form-instruction">
+                *Lorem ipsum dolor sit amet consectetur
+            </span>
+            </div>
+
+    <div class="form-fields">
+        <div class="input-container1">
+            <div class="input-group">
+            <label for="cat1" class="sr-only">Primeira Categoria</label>
+            <input type="text" id="cat1" name="category_1" placeholder="Categoria*" required>
+        </div>
+
+        <div class="input-group">
+            <label for="cat2" class="sr-only">Segunda Categoria</label>
+            <input type="text" id="cat2" name="category_2" placeholder="Categoria*" required>
+        </div>
+        </div>
+
+        <div class="input-container2">
+        <div class="input-group">
+            <label for="cat3" class="sr-only">Terceira Categoria</label>
+            <input type="text" id="cat3" name="category_3" placeholder="Categoria*" required>
+        </div>
+
+        <div class="input-group">
+            <label for="cat4" class="sr-only">Quarta Categoria</label>
+            <input type="text" id="cat4" name="category_4" placeholder="Categoria*" required>
+        </div>
+        </div>
+    </div>
+
+    <div class="form-security">
+        <h2>
+            Verificação de segurança
+        </h2>
+
+        <div class="numbers-container">
+        <div class="values-sum">
+        <p class="security-number" id="numberOne"></p>
+        <span class="sumIcon">
+            <img src="static/plus-icon.png" alt="Símbolo de adição">
+        </span>
+        <p class="security-number" id="numberTwo"></p>
+        </div>
+
+        <span class="equalIcon">
+            <img src="static/equal.png" alt="Símbolo de igual">
+        </span>
+        <label for="result" class="sr-only">Resultado:</label>
+        <input type="number" id="result" name="resultSecurity" required placeholder="Resultado*">
+        </div>
+
+        </div>
+        <p id="resultText" class="result-text"></p>
+        <div class="result-btn-container">
+        <button id="resultBtn" type="button" class="form-btn">
+            Lorem ipsum
+        </button>
+        </div>
+
+        </form>
+    </section>
+    </main>
+
+    <div class="separator-border">
+        <img src="static/Rectangle 10699.png" alt="borda para separar seções">
+    </div>
+
+    <footer class="footer">
+        <div class="social-container">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="static/instagram-icon.png" alt="ícone do instagram">
+            </a>
+
+             <a href="https://web.whatsapp.com" target="_blank" rel="noopener noreferrer">
+                <img src="static/whatsapp-icon.png" alt="ícone do Whatsapp">
+            </a>
+
+            <a href="https://x.com/?lang=pt" target="_blank" rel="noopener noreferrer">
+                <img src="static/twiiter-icon.png" alt="ícone do Twitter">
+            </a>
+
+             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                <img src="static/facebook-icon.png" alt="ícone do Facebook">
+            </a>
+        </div>
+
+        <div class="footer-infos">
+            <h2>
+                Lorem ipsum dolor sit amet
+            </h2>
+
+        <nav class="categorys">
+            <ul>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+            </ul>
+        </nav>
+
+        </div>
+    </footer>
+
+<div class="menu-overlay" id="menuOverlay" role="dialog" aria-modal="true" aria-label="Menu">
+
+  <!-- Nav Menu (duplicado do header) -->
+  <nav class="menu-nav">
+    <img src="static/logo.png" alt="logo monks">
+    <button type="button" id="close-menu" aria-label="Fechar menu" class="menu-btn">
+      <img src="static/Vector.png" alt="botão-menu">
+    </button>
+  </nav>
+
+  <!-- CONTEÚDO DO MENU -->
+  <ul class="menu-list">
+    <li><a href="#productsSection">Categoria 1</a></li>
+    <li><a href="#gallerySection">Categoria 2</a></li>
+    <li><a href="#AppSection">Categoria 3</a></li>
+    <li><a href="#formSection">Categoria 4</a></li>
+  </ul>
+
+  <div class="back-container">
+  <a href="#heroSection" class="back-img-container" id="backToMenu">
+    <img src="static/back.png" alt="Voltar do menu">
+    <span class="img-text">back</span>
+  </a>
+  </div>
+</div>
+
+</body>
+</html>
